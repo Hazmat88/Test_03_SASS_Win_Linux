@@ -1,0 +1,10 @@
+//Variables
+$paragraphs: LightCoral;
+
+body {
+    background-color: LightGreen;
+}
+
+p {
+    color: $paragraphs;
+}
