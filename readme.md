@@ -14,3 +14,5 @@
 * On choisi un theme dans les settings
 * Creer un fichier _config.yml dans le repos pour configration du theme de gitpage
 * Visiblement sa creer un lien (website) du fichier html contenu dans repos permet de voir en direct du contenu du repos
+* On peut desactiver aprés l'avoir activé en mettant none a la place de master and save dans les setting de gitpage.
+    * Néanmoins le fichier de configuration _config.yml reste present dans le dépots donc penser a supprimer si clearing
