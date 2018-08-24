@@ -12,4 +12,5 @@
 ## GITPAGE SETTING
 
 * On choisi un theme dans les settings
+* Creer un fichier _config.yml dans le repos pour configration du theme de gitpage
 * Visiblement sa creer un lien (website) du fichier html contenu dans repos permet de voir en direct du contenu du repos
