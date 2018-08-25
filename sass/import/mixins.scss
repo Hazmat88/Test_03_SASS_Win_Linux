@@ -1,0 +1,24 @@
+//MIXINS
+//Declaration d'un mixins => @mixin nomchoisi(parametre1,para2,etc){valeur, propriétés, code
+//Utilisation d'un mixin => @include nomdumixin(valeurparametre1,valeurparametre2,etc);
+//exemple: h1{ @include background($rouge);}
+
+//Mixins equivalent de fonctions ideal pour prefixe vendeurs browser (webkit,moz,etc)
+/*exemple prefixe vendors par default en css
+.article{
+  /* Safari 3-4, iOS 1-3.2, Android 1.6- */
+ // -webkit-border-radius: 12px;
+
+  /* Firefox 1-3.6 */
+  //-moz-border-radius: 12px;
+
+  /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+  //border-radius: 12px;
+//}
+
+// meme chose en mixins, comme une fonctions  + parametres
+@mixin border-radius ($radius){
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    border-radius: $radius;
+}
